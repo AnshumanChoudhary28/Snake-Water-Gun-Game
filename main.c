@@ -3,17 +3,18 @@
 #include<time.h>
 
 int snakeWaterGun(char you, char comp){
-    // returns 1 if you win, -1 if you lose and 0 if draw
-    // Condition for draw
+    // It returns 1 if you win, -1 if you lose and 0 if draw
+    // Conditions for draw:
     // Cases covered:
     // ss
     // gg
     // ww
+    
     if(you == comp){
         return 0;
     }
 
-    // Non-draw conditions
+    // Possible non-draw conditions:
     // Cases covered:
     // sg
     // gs
